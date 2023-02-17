@@ -1,16 +1,22 @@
-### Hi there 👋
+Las funciones de formulario y globales se escriben de la siguiente manera:
 
-<!--
-**bizuit/BIZUIT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+BizuitForm['NombreFuncion'] = async function (parametro1, parametro2, parametro n)
+{
+// código
+}
+Ejemplo:
 
-Here are some ideas to get you started:
+BizuitForm['HolaMundo'] = async function(name)
+{
+    console.log(nombre);
+}
+Este código es invocado desde los controles de la siguiente manera:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+BizuitForm.NombreFuncion(parametro1,parametro2, parametro n)
+
+Ejemplo:
+
+BizuitForm.HolaMundo("Juan Carlos");
+
+
+New work item
