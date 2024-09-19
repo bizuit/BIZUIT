@@ -22,3 +22,4 @@ Este código es invocado desde los controles de la siguiente manera:
 Ejemplo:
 
 `BizuitForm.HolaMundo("Juan Carlos");`
+
